@@ -4,32 +4,32 @@
 
 ![demo](https://i.imgur.com/jnZJtxs.gif)
 
-## Usage 
+## Usage
 
 1. Install uuGle from [uuGle Chrome Web Store page](https://chrome.google.com/webstore/detail/uugle/makckafajckddaiinilmeogejgdmacmi)
-2. **uuGle** automatically indexes every Unicorn bookkit book you open. Just open any single page of any book, and a 
+2. **uuGle** automatically indexes every Unicorn bookkit book you open. Just open any single page of any book, and a
    list of all the pages in that book will be indexed and for search.
    - **uuGle is not fulltext search** - it indexes only **page title and book name**, not a whole page content.
    - It does not matter which page of book you open (home page is quite enough), all pages of that book are indexed.
 3. Click extension icon or use **keyboard shortcut** <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd> on Windows,
-   <kbd>Ctrl</kbd>+<kbd>U</kbd> on Linux, <kbd>Command</kbd>+<kbd>U</kbd> on 
+   <kbd>Ctrl</kbd>+<kbd>U</kbd> on Linux, <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd> on
    Mac.
    - Type a keyword to start search in indexed content.
-   - You don't need to type whole word, search words are automatically expanded. E.g. type "trans" and search 
-     results containing word "transaction" will be suggested. This can be used to quickly find uuCommand designs: e.g. 
-     type "trans list" to search for transaction/list CMD.  
+   - You don't need to type whole word, search words are automatically expanded. E.g. type "trans" and search
+     results containing word "transaction" will be suggested. This can be used to quickly find uuCommand designs: e.g.
+     type "trans list" to search for transaction/list CMD.
    - Search results are sorted by relevance in descending order
    - When too many results across many books are found, try adding the tile of the product, application or component
-     to the search query.   
-4. For each page found, there is a link to that page. By default, the link opens in currently selected tab. You can 
-   <kbd>Ctrl</kbd>+<kbd>Click</kbd> to open it in new browser tab. 
+     to the search query.
+4. For each page found, there is a link to that page. By default, the link opens in currently selected tab. You can
+   <kbd>Ctrl</kbd>+<kbd>Click</kbd> to open it in new browser tab.
    - Color of page link corresponds to book type (i.e. user guide, application model, business model etc.)
-   - Breadcrumb navigation is available to better differentiate pages with a similar or identical name. Each link to 
-     page ancestor in menu hierarchy can be clicked to open in currently selected tab or in new tab 
+   - Breadcrumb navigation is available to better differentiate pages with a similar or identical name. Each link to
+     page ancestor in menu hierarchy can be clicked to open in currently selected tab or in new tab
      (<kbd>Ctrl</kbd>+<kbd>Click</kbd>).
    - There is a **_w_** icon next to page title to indicate "_work in progress_" status of that page.
-5. You can use <kbd>&#8593;</kbd> and <kbd>&#8595;</kbd> keys to navigate in search results. To open page link you can 
-   use <kbd>Enter</kbd> to open it in the currently selected tab, or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to open it in new 
+5. You can use <kbd>&#8593;</kbd> and <kbd>&#8595;</kbd> keys to navigate in search results. To open page link you can
+   use <kbd>Enter</kbd> to open it in the currently selected tab, or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to open it in new
    browser tab.
 6. Every indexed book is being re-indexed after some time once you open it again to keep your uuGle page index up-to-date.
 
@@ -43,11 +43,11 @@
 
 ## Road map
 1. GUI to control book indexing - delete index, reindex single book etc.
-1. Automatic pre-indexing of books from some online catalogue, so you don't need to open every book first individually to index it.  
+1. Automatic pre-indexing of books from some online catalogue, so you don't need to open every book first individually to index it.
 
 # Development guide
 
-<span style="color:red">Use the following lines for extension **development only**, you don't need to read it for regular extension usage.</span>  
+<span style="color:red">Use the following lines for extension **development only**, you don't need to read it for regular extension usage.</span>
 
 # Chrome Extension Boilerplate with React 16.13 and Webpack 4
 
